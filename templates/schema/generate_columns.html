@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="center">Generate Columns</h1>
+
+    <form method="POST" class="form_generate">
+        {% csrf_token %}
+        <label>Select schema:</label>
+        <select name="schema" required>
+            <option value="" selected disabled>Choose a schema</option>
+            {% for schema in schemas %}
+                <option value="{{ schema.id }}">{{ schema.name }}</option>
+            {% endfor %}
+        </select>
+
+        <hr>
+        <label>From Age:</label>
+        <input type="number" name="from_age"><br>
+        <label>To Age:</label>
+        <input type="number" name="to_age"><br>
+        <label>Number of Fields:</label>
+        <input type="number" name="num_fields">
+        <hr>
+        <h4>Select fields to fill:</h4>
+        <input type="checkbox" name="fields[]" value="full_name">
+        <label for="full_name">Full Name</label><br>
+        <input type="checkbox" name="fields[]" value="age">
+        <label for="age">Age</label><br>
+        <input type="checkbox" name="fields[]" value="job">
+        <label for="job">Job</label><br>
+        <input type="checkbox" name="fields[]" value="email">
+        <label for="email">Email</label><br>
+        <input type="checkbox" name="fields[]" value="domain">
+        <label for="domain">Domain</label><br>
+        <input type="checkbox" name="fields[]" value="phone">
+        <label for="phone">Phone</label><br>
+        <input type="checkbox" name="fields[]" value="company">
+        <label for="company">Company</label><br>
+        <input type="checkbox" name="fields[]" value="address">
+        <label for="address">Address</label><br>
+        <input type="checkbox" name="fields[]" value="text">
+        <label for="address">Text</label><br>
+        <input type="checkbox" name="fields[]" value="integer">
+        <label for="address">Integer</label><br>
+        <input type="checkbox" name="fields[]" value="date">
+        <label for="date">Date</label><br>
+        <button type="submit">Generate</button>
+    </form>
+{% endblock %}

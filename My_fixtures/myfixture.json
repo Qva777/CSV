@@ -1,0 +1,368 @@
+[
+{
+    "model": "Users.myuser",
+    "pk": "0683b07c-21ae-4fb8-8f61-b146760b1554",
+    "fields": {
+        "last_login": "2023-03-07T21:57:21.974Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-03-07T21:56:58.145Z",
+        "username": "admin",
+        "password": "pbkdf2_sha256$390000$d6aHWzhudE7SGWkXKtvswn$FKVXeOvmrfL7s3d5KCUD/3ufW3Y3mPZjQRb/+zClapk=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "Schemas.schema",
+    "pk": 1,
+    "fields": {
+        "name": "Customers",
+        "created_at": "2023-03-07T21:58:09.710Z"
+    }
+},
+{
+    "model": "Schemas.schema",
+    "pk": 2,
+    "fields": {
+        "name": "Appartments",
+        "created_at": "2023-03-07T21:58:45.711Z"
+    }
+},
+{
+    "model": "Schemas.schema",
+    "pk": 3,
+    "fields": {
+        "name": "Influencers",
+        "created_at": "2023-03-07T21:59:33.529Z"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 1,
+    "fields": {
+        "schema": 1,
+        "full_name": "Lee Sawyer",
+        "age": 44,
+        "job": "Administrator, sports",
+        "email": "mary55@example.com",
+        "domain": "mcgee.biz",
+        "phone": "+1-460-701-6294x67339",
+        "company": "Castaneda, Moore and Adams",
+        "text": "Ahead officer light dog American medical. Rise always language land go understand he floor.\nImage beautiful TV majority structure nation eat. Explain reduce suggest usually sound world wrong.",
+        "integer": -80869,
+        "address": "451 Smith Place Suite 046\nNew Brandon, LA 90345",
+        "date": "2006-04-19"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 2,
+    "fields": {
+        "schema": 1,
+        "full_name": "Ronnie Fernandez",
+        "age": 23,
+        "job": "Journalist, newspaper",
+        "email": "hodgesspencer@example.com",
+        "domain": "patel-anderson.org",
+        "phone": "001-243-258-6010",
+        "company": "Bradford, Johnson and Allen",
+        "text": "Bring certain plant enjoy arrive. Window yes may.\nLetter computer alone help little us. Trial yes manager south my.",
+        "integer": 32136,
+        "address": "420 Robin Row Apt. 219\nNorth Jamie, SC 14480",
+        "date": "2010-06-29"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 3,
+    "fields": {
+        "schema": 1,
+        "full_name": "Kyle Terrell",
+        "age": 37,
+        "job": "Pilot, airline",
+        "email": "brightdebra@example.org",
+        "domain": "torres.net",
+        "phone": "001-779-916-0523x244",
+        "company": "Harris, Hurley and Nelson",
+        "text": "Face fine television section put attack everything ground. Moment hot thousand imagine reflect. Indicate trial population clear collection many. Toward these buy whether.",
+        "integer": -78596,
+        "address": "550 Smith Orchard Suite 030\nLake Michaelshire, NY 92559",
+        "date": "2000-12-25"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 4,
+    "fields": {
+        "schema": 1,
+        "full_name": "Mary Soto",
+        "age": 48,
+        "job": "Pharmacist, hospital",
+        "email": "kreyes@example.com",
+        "domain": "davis-davis.net",
+        "phone": "001-196-707-7537x9783",
+        "company": "Hammond-Gross",
+        "text": "Strong free participant east bed gas instead. Add activity simply consumer walk. Tax believe career them name.",
+        "integer": -63845,
+        "address": "22782 Adrienne Corners\nNashmouth, OK 80779",
+        "date": "2016-07-08"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 5,
+    "fields": {
+        "schema": 1,
+        "full_name": "Michael Miller",
+        "age": 25,
+        "job": "Graphic designer",
+        "email": "baileyaustin@example.net",
+        "domain": "reyes.info",
+        "phone": "+1-409-729-8031x5428",
+        "company": "Gallagher, Wood and Baldwin",
+        "text": "Truth ago member specific record seven focus perhaps. Reduce nature class big soon each. And concern fast.\nAction consider as agreement we floor.",
+        "integer": 15059,
+        "address": "72252 Parrish Lock Apt. 530\nPattersonville, MT 90200",
+        "date": "2000-07-09"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 6,
+    "fields": {
+        "schema": 2,
+        "full_name": "Victoria Robbins",
+        "age": null,
+        "job": null,
+        "email": "williamssamantha@example.net",
+        "domain": null,
+        "phone": "001-688-745-4827x671",
+        "company": null,
+        "text": null,
+        "integer": null,
+        "address": "48143 Kyle Motorway\nLake Philipchester, GA 13818",
+        "date": "2012-01-13"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 7,
+    "fields": {
+        "schema": 2,
+        "full_name": "Nicholas Hicks",
+        "age": null,
+        "job": null,
+        "email": "tabbott@example.net",
+        "domain": null,
+        "phone": "001-263-262-4244x0124",
+        "company": null,
+        "text": null,
+        "integer": null,
+        "address": "093 Jay Village\nPort Alan, AR 66331",
+        "date": "2014-04-26"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 8,
+    "fields": {
+        "schema": 2,
+        "full_name": "Martha Baker",
+        "age": null,
+        "job": null,
+        "email": "sgonzalez@example.com",
+        "domain": null,
+        "phone": "550-388-6093",
+        "company": null,
+        "text": null,
+        "integer": null,
+        "address": "3427 Bradshaw Prairie Suite 642\nJonview, HI 89659",
+        "date": "2012-03-17"
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 9,
+    "fields": {
+        "schema": 3,
+        "full_name": "Bradley Novak",
+        "age": 48,
+        "job": "Education administrator",
+        "email": "jdavis@example.com",
+        "domain": "davis.com",
+        "phone": "001-203-975-5876x951",
+        "company": "Hendrix-Thomas",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 10,
+    "fields": {
+        "schema": 3,
+        "full_name": "Miranda Acevedo",
+        "age": 47,
+        "job": "Production manager",
+        "email": "ashley09@example.org",
+        "domain": "scott.com",
+        "phone": "390.807.6946",
+        "company": "Tucker PLC",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 11,
+    "fields": {
+        "schema": 3,
+        "full_name": "Briana Bennett",
+        "age": 46,
+        "job": "Runner, broadcasting/film/video",
+        "email": "jennifercox@example.org",
+        "domain": "buckley.com",
+        "phone": "001-316-485-6039x06065",
+        "company": "Wang, Rosales and Russell",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 12,
+    "fields": {
+        "schema": 3,
+        "full_name": "Mallory Anderson",
+        "age": 60,
+        "job": "Pharmacist, community",
+        "email": "ibradley@example.net",
+        "domain": "garcia.com",
+        "phone": "(358)962-3282x450",
+        "company": "Rivera Inc",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 13,
+    "fields": {
+        "schema": 3,
+        "full_name": "Cameron Olson",
+        "age": 59,
+        "job": "Microbiologist",
+        "email": "dcollins@example.net",
+        "domain": "tucker.biz",
+        "phone": "466.638.1815x98028",
+        "company": "Ellis Inc",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 14,
+    "fields": {
+        "schema": 3,
+        "full_name": "Claire Brown",
+        "age": 65,
+        "job": "Artist",
+        "email": "richardrodriguez@example.net",
+        "domain": "gamble.com",
+        "phone": "422-889-3150x753",
+        "company": "Torres-Foster",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 15,
+    "fields": {
+        "schema": 3,
+        "full_name": "Edwin Sandoval",
+        "age": 41,
+        "job": "Multimedia specialist",
+        "email": "mcclurethomas@example.com",
+        "domain": "haney.net",
+        "phone": "001-958-940-1094",
+        "company": "Griffin, Bailey and Perkins",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 16,
+    "fields": {
+        "schema": 3,
+        "full_name": "Michael Patel",
+        "age": 50,
+        "job": "Petroleum engineer",
+        "email": "woodskari@example.com",
+        "domain": "walker.info",
+        "phone": "+1-369-073-7943x82439",
+        "company": "Stout-Wilson",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 17,
+    "fields": {
+        "schema": 3,
+        "full_name": "Claudia Vargas",
+        "age": 58,
+        "job": "Higher education lecturer",
+        "email": "sclark@example.org",
+        "domain": "dunn.com",
+        "phone": "(898)119-4678",
+        "company": "Delgado, Carney and Clarke",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+},
+{
+    "model": "Columns.column",
+    "pk": 18,
+    "fields": {
+        "schema": 3,
+        "full_name": "Aaron Sweeney",
+        "age": 42,
+        "job": "Public affairs consultant",
+        "email": "kpayne@example.com",
+        "domain": "ford.com",
+        "phone": "001-759-597-0610x1838",
+        "company": "Howard, Tyler and Li",
+        "text": null,
+        "integer": null,
+        "address": null,
+        "date": null
+    }
+}
+]

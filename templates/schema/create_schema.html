@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h2 class="center">Create a new schema</h2>
+    <form method="post" id="create-schema-form">
+        {% csrf_token %}
+        <div class="center form-group">
+            <label for="name">Schema Name:</label>
+            <input type="text" name="name" class="form-control form-control" required>
+        </div>
+        <div class="center form-group">
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+    </form>
+
+{% endblock %}
+
+

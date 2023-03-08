@@ -1,0 +1,146 @@
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    margin-top: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-control {
+    display: inline-block;
+    width: 10%
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.login-form .errorlist {
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+/* add schemas */
+.text-schema {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.new-schema {
+    position: absolute;
+    top: 10%;
+    right: 18%;
+}
+
+.new-column {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+/* tabel home page*/
+.home-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    left: 15%;
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+}
+
+.edit-table {
+    top: 25%;
+    position: absolute;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Generate Column */
+form.form_generate {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form.form_generate label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form.form_generate input[type="number"],
+form.form_generate input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form.form_generate button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.form_generate button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+/* Generate Column */

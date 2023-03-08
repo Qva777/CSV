@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit Schema{% endblock %}
+{% block content %}
+    <h2 class="center">Edit Column</h2>
+    <h3 class="center">{{ schemas.name }}</h3>
+
+    <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="_method" value="PATCH">
+        {{ formset.management_form }}
+        <table class="edit-table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Job</th>
+                <th>Company</th>
+                <th>Address</th>
+                <th>Text</th>
+                <th>Integer</th>
+                <th>Domain</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for form in formset %}
+                <tr>
+                    <td>{{ form.id }}</td>
+
+                    <td>{{ form.full_name }}</td>
+                    <td>{{ form.age }}</td>
+                    <td>{{ form.email }}</td>
+                    <td>{{ form.phone }}</td>
+                    <td>{{ form.job }}</td>
+                    <td>{{ form.company }}</td>
+                    <td>{{ form.address }}</td>
+                    <td>{{ form.text }}</td>
+                    <td>{{ form.integer }}</td>
+                    <td>{{ form.domain }}</td>
+                    <td>{{ form.date }}</td>
+                    <td>{{ form.date }}</td>
+
+                </tr>
+                <tr>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <div class="center">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+            <a href="{% url 'export' schemas.pk %}" class="btn btn-secondary">Download</a>
+
+        </div>
+    </form>
+{% endblock %}
+
+
